@@ -1,3 +1,8 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmVhY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
+    background-size: cover;
+
+}
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -6,9 +11,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-*{
-    background-color: #aca8a8;
-}
+
 h1{
     font-size: 50px;
     margin: 20px;
