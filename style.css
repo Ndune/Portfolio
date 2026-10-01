@@ -41,3 +41,13 @@ img{
     object-fit: cover;
 
 }
+
+footer {
+    background-color: #334b4b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
