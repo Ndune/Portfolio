@@ -35,11 +35,4 @@ img{
     object-fit: cover;
 
 }
-a{
-    display: inline-block;
-    padding: 10px 16px;
-    background-color: #334b4b;
-    border-radius: 4px;
-    color: white;
-    text-decoration: none;
-}
+
