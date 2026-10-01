@@ -8,11 +8,15 @@ nav ul {
     padding: 0;
 }
 *{
-    background-color: #aca8a8;
+    background-color: #faf6f6;
 }
 h1{
     font-size: 50px;
     margin: 20px;
+}
+h2{
+    background-color: #d2f8f8;
+    color: white;
 }
 nav{
     margin: 20px; 
@@ -29,10 +33,9 @@ nav a {
     text-decoration: none;
 }
 img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
 
 }
-
