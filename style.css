@@ -16,7 +16,9 @@ h1{
 }
 h2{
     background-color: #d2f8f8;
-    color: white;
+    color: rgb(7, 0, 0);
+    margin: 20px;
+    padding: 10px;
 }
 nav{
     margin: 20px; 
