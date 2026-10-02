@@ -20,12 +20,7 @@ h2{
     margin: 20px;
     padding: 10px;
 }
-h3{
 
-    color: rgb(7, 0, 0);
-    font-size: 24px;
-    font-family: Arial, sans-serif;
-}
 nav{
     margin: 20px; 
     padding: 5px;
@@ -72,4 +67,9 @@ section {
 .footer-content {
     max-width: 900px;
     margin: 0 auto;
+}
+
+.footer-content h3{
+    margin: 6px 0;
+    font-size: 0.95rem;
 }
