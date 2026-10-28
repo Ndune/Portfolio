@@ -1,106 +1,146 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Constance Nyamoki is a software engineer and web developer creating thoughtful digital tools for everyday challenges.">
+    <meta name="theme-color" content="#f4f4ef">
+    <title>Constance Nyamoki — Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-<body> 
-    <profile>
-    <img src="images/constance.jpeg" alt="Constance Nyamoki" class="profile-image">
-    </profile>
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <header>
-        <h1>Constance Nyamoki</h1>
-        <p>Software Engineer| Web Developer</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#skills">My skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+    <div class="page-shell" id="top">
+        <nav class="site-nav" aria-label="Main navigation">
+            <a class="brand" href="#top" aria-label="Constance Nyamoki, home">
+                <span class="brand-mark" aria-hidden="true">CN</span>
+                <span class="brand-name">Constance Nyamoki</span>
+            </a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+                <span class="menu-toggle-label">Menu</span>
+                <span class="menu-toggle-icon" aria-hidden="true"><span></span><span></span></span>
+            </button>
+            <ul class="nav-links" id="primary-navigation">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Expertise</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a></li>
+            </ul>
+        </nav>
 
-        </ul>
-    </nav>
+        <main id="main-content">
+            <header class="hero">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Software engineer &amp; web developer</p>
+                    <h1>Building practical digital experiences that <span>solve real problems.</span></h1>
+                    <p class="hero-intro">
+                        I'm Constance Nyamoki, a software engineer focused on creating reliable, user-centered products
+                        that simplify work, improve access to information, and deliver meaningful value.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+                        <a class="text-link" href="mailto:constancenyamoki@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+                    </div>
+                    <div class="hero-meta">
+                        <span class="meta-line" aria-hidden="true"></span>
+                        <span>Detail-oriented. User-focused. Built to last.</span>
+                    </div>
+                </div>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Constance Nyamoki, a junior software engineer 
-           and a web developer with a passion for creating efficient and scalable applications using modern technologies.</p>
-        <p>
-            With a strong foundation in programming languages and frameworks, I enjoy tackling complex problems and continuously learning new technologies.
-            My goal is to contribute to innovative projects that make a positive impact on users' lives.
-        </p>
-       
-    </section  >
+                <div class="hero-visual">
+                    <div class="portrait-frame">
+                        <img src="images/constance.jpeg" alt="Portrait of Constance Nyamoki" class="profile-image">
+                        <div class="portrait-caption">
+                            <span class="portrait-caption-label">About me</span>
+                            <span>Designing thoughtful solutions with purpose.</span>
+                        </div>
+                    </div>
+                    <span class="visual-index" aria-hidden="true">01 / 04</span>
+                    <span class="orbit orbit-one" aria-hidden="true"></span>
+                    <span class="orbit orbit-two" aria-hidden="true"></span>
+                </div>
+            </header>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Frontend Development: HTML, CSS, JavaScript</li>
-            <li>Backend Development: Python</li>
-            <li>Database Management: MySQL</li>
-            <li>Version Control: Git and GitHub</li>
-            <li>Problem Solving and Algorithm Design</li>
-        </ul>
-    </section>
+            <section class="content-section about-section" id="about" aria-labelledby="about-heading">
+                <div class="section-heading">
+                    <span class="section-kicker">01 — About</span>
+                    <h2 id="about-heading">I build software with clarity, purpose, and <span>attention to detail.</span></h2>
+                </div>
+                <div class="about-copy">
+                    <p class="about-lead">
+                        I’m a software engineer and web developer with a strong foundation in programming and a
+                        practical focus on building efficient, reliable digital products.
+                    </p>
+                    <p>
+                        I enjoy understanding user needs, choosing the right tools for the problem, and
+                        turning ideas into clear, well-structured solutions. My work spans responsive websites,
+                        desktop applications, and data-driven service portals.
+                    </p>
+                    <p>
+                        I’m continually expanding my technical skills and seeking opportunities to contribute
+                        to teams building products that are useful, accessible, and meaningful to their users.
+                    </p>
+                    <a class="text-link" href="#contact">Let’s work together <span aria-hidden="true">↗</span></a>
+                </div>
+            </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <p>Bachelor of Science in Information Technology - Mount Kenya University, Kenya</p>
-        <p>Python essentials - CISCO technical certificate</p>
-        <p>Python certificate - FreeCodeCamp</p>
-    </section>
+            <section class="content-section skills-section" id="skills" aria-labelledby="skills-heading">
+                <div class="section-heading">
+                    <span class="section-kicker">02 — Expertise</span>
+                    <h2 id="skills-heading">Technical skills shaped by <span>practical problem-solving.</span></h2>
+                    <p class="section-description">A growing toolkit built on fundamentals, adaptability, and a strong focus on clean, reliable execution.</p>
+                </div>
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <span class="skill-number">01</span>
+                        <h3>Web development</h3>
+                        <p>Responsive, accessible interfaces designed to be clear, intuitive, and effective across devices.</p>
+                        <ul class="tag-list" aria-label="Web development technologies">
+                            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+                        </ul>
+                    </article>
+                    <article class="skill-card">
+                        <span class="skill-number">02</span>
+                        <h3>Application development</h3>
+                        <p>Practical software solutions designed around real user workflows, operational needs, and clarity.</p>
+                        <ul class="tag-list" aria-label="Application development technologies">
+                            <li>Python</li><li>Tkinter</li>
+                        </ul>
+                    </article>
+                    <article class="skill-card">
+                        <span class="skill-number">03</span>
+                        <h3>Data &amp; storage</h3>
+                        <p>Structured data management and dependable persistence to support consistent, useful experiences.</p>
+                        <ul class="tag-list" aria-label="Database technologies">
+                            <li>MySQL</li><li>SQLite</li>
+                        </ul>
+                    </article>
+                    <article class="skill-card">
+                        <span class="skill-number">04</span>
+                        <h3>How I work</h3>
+                        <p>Collaborative, detail-oriented problem solving with a focus on maintainability, learning, and execution.</p>
+                        <ul class="tag-list" aria-label="Tools and practices">
+                            <li>Git</li><li>GitHub</li><li>Algorithms</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        
-            <h3>Project 1: Personal Portfolio</h3>
-            <p>
-                Developed a personal portfolio website to showcase my skills, projects, and experience. 
-                Implemented responsive design and interactive features using HTML, CSS, and JavaScript. 
-            </p>
-            <p>Tools: HTML, CSS, JavaScript</p>
-              <a href="https://github.com/Ndune/Portfolio.git">View Project</a>
+            <section class="projects-section" id="projects" aria-labelledby="projects-heading">
+                <div class="section-heading projects-heading">
+                    <div>
+                        <span class="section-kicker">03 — Selected work</span>
+                        <h2 id="projects-heading">Projects built to improve <span>real-world workflows.</span></h2>
+                    </div>
+                        <p class="section-description">A selection of projects focused on practical problem-solving, functional design, and user-centered digital tools.</p>
+                </div>
 
-<<<<<<< HEAD
-            <h3>Project 2: Inventory Management System</h3>
-            <p>
-                Developed a Python-based inventory management system built with Tkinter for tracking products, stock levels, and sales records.
-                Implemented a user-friendly interface and database integration for efficient data management.
-                
-            </p>
-            <p>Tools: Tkinter, SQLite</p>
-            <a href="https://github.com/Ndune/Inventory-System.git">View Project</a>
-    
-            <h3>Project 3: MyNorwa-Water Quality & Filter Service Portal</h3>
-            <p>
-                A web app for Norwa customers to view water-quality readings and filter status, while technicians record TDS readings. 
-                It includes customer phone-number login, a SQLite database, and a dashboard that displays current readings, filter life, and reading history.
-                
-            </p>
-            <p>Tools: HTML, CSS, JavaScript, SQLite</p>
-            <a href="https://github.com/Ndune/MyNorwa-Water-Quality-Filter-Service-Portal.git" target="_blank">View Project</a>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:constancenyamoki@gmail.com" target="_blank">constancenyamoki@gmail.com</a></p>
-        <p>Phone: <a href="tel:079-099-6395" target="_blank">079-099-6395</a></p>
-        <p>GitHub: <a href="https://github.com/Ndune" target="_blank">github.com/Ndune</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/constance-nyamoki-8717bb246" target="_blank">linkedin.com/in/constancenyamoki</a></p>
-    </section>
-
-    <footer class="site-footer">
-        <div class="footer-content">
-            <h3>&copy; 2026 Constance Nyamoki. All rights reserved.</h3>
-        
-        </div>
-    </footer>
-=======
                 <div class="projects-grid">
                     <article class="project-card project-featured">
                         <div class="project-topline">
@@ -205,7 +245,5 @@
             </div>
         </footer>
     </div>
->>>>>>> 18062e1 (Your new commit message)
 </body>
 </html>
-
